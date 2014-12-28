@@ -2,13 +2,51 @@ NAME
     Complete::Dist::Zilla - Complete with installed Dist::Zilla plugin names
 
 VERSION
-    This document describes version 0.01 of Complete::Dist::Zilla (from Perl
+    This document describes version 0.02 of Complete::Dist::Zilla (from Perl
     distribution Complete-Dist-Zilla), released on 2014-12-28.
 
 SYNOPSIS
 FUNCTIONS
+  complete_dzil_bundle(%args) -> any
+    Complete with installed Dist::Zilla bundle names.
+
+    Arguments ('*' denotes required arguments):
+
+    *   ci => *bool*
+
+        Whether to do case-insensitive search.
+
+    *   exp_im_path => *bool*
+
+    *   map_case => *bool*
+
+    *   word* => *str*
+
+    Return value:
+
+     (any)
+
   complete_dzil_plugin(%args) -> any
     Complete with installed Dist::Zilla plugin names.
+
+    Arguments ('*' denotes required arguments):
+
+    *   ci => *bool*
+
+        Whether to do case-insensitive search.
+
+    *   exp_im_path => *bool*
+
+    *   map_case => *bool*
+
+    *   word* => *str*
+
+    Return value:
+
+     (any)
+
+  complete_dzil_role(%args) -> any
+    Complete with installed Dist::Zilla role names.
 
     Arguments ('*' denotes required arguments):
 
